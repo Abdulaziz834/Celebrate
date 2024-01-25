@@ -83,19 +83,12 @@ ul.navigation {
 section.home {
     height: 100vh;
     display: grid;
-    grid-template-areas: "stack";
     place-items: center;
     overflow: hidden;
-}
-
-section.home > * {
-    grid-area: stack;
-}
-
-section.home > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(./assets/Epicenter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.home > .title-container {
